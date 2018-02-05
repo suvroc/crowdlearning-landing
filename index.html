@@ -48,6 +48,9 @@
         }
     </style>
 
+
+
+
 </head>
 
 <body id="page-top">
@@ -131,7 +134,7 @@
                                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b6bd71398f92694715ebf3bc9_76067c6ada" tabindex="-1" value=""></div>
                                     <div class="clear">
-                                        <input type="submit" onclick="ga('send', 'event', 'email', 'zapis')" id="singup-button" value="Zapisz się" name="subscribe" class="btn btn-outline btn-block btn-xl btn-wide"></div>
+                                        <input type="submit" id="singup-button" onclick="ga('send', 'event', 'email', 'zapis')" value="Zapisz się" name="subscribe" class="btn btn-outline btn-block btn-xl btn-wide"></div>
                                 </div>
                             </form>
                         </div>
@@ -280,7 +283,6 @@
     <script src="js/new-age.min.js "></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113302734-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -291,10 +293,10 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-113302734-1');
+
+        ga('create', 'UA-113302734-1', 'auto');
+        ga('send', 'pageview');
     </script>
-
-
-
 </body>
 
 </html>
