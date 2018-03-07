@@ -176,7 +176,7 @@ header.masthead {
     color: white;
     background: url("../img/bg-pattern.png"), #007bff;
     background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #007bff, #dc2430);
-    background: url("../img/bg-pattern.png"), linear-gradient(to left, #007bff, #dc2430);
+    background: url("../img/bg-pattern.png"), linear-gradient(to right, #005c97, #363795);
 }
 
 header.masthead .header-content {
@@ -422,8 +422,8 @@ footer ul li a.active {
 
 .bg-primary {
     background: #fdcc52;
-    background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539);
+    background: -webkit-linear-gradient(#fceabb, #f8b500);
+    background: linear-gradient(to right, #fceabb, #f8b500);
 }
 
 .text-primary {
@@ -490,4 +490,9 @@ input {
 
 header.masthead {
     padding-top: 50px;
+}
+
+#mce-success-response {
+    font-size: xx-large;
+    text-align: center;
 }
