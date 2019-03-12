@@ -496,3 +496,15 @@ header.masthead {
     font-size: xx-large;
     text-align: center;
 }
+
+section.business {
+    background: -webkit-linear-gradient(#fceabb, #f8b500);
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    text-align: center;
+}
+
+section.parents {
+    background: #035a97 !important;
+    color: white;
+    text-align: center;
+}
